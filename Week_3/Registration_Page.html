@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="CSS_Style for Registration and Login.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div class="container">
+    <div class="title">Registration</div>
+    <form action="#">
+      <div class="user__details">
+        <div class="input__box">
+          <span class="details">Full Name</span>
+          <input type="text" placeholder="E.g: Amarachi South" required>
+        </div>
+        <div class="input__box">
+          <span class="details">Username</span>
+          <input type="text" placeholder="south" required>
+        </div>
+        <div class="input__box">
+          <span class="details">Email</span>
+          <input type="email" placeholder="south@gmail.com" required>
+        </div>
+        <div class="input__box">
+          <span class="details">Phone Number</span>
+          <input type="tel" pattern="+234-803-000-0000" placeholder="+234-803-000-0000" required>
+        </div>
+        <div class="input__box">
+          <span class="details">Password</span>
+          <input type="password" placeholder="xxxxxxxxx" required>
+        </div>
+        <div class="input__box">
+          <span class="details">Confirm Password</span>
+          <input type="password" placeholder="xxxxxxxxxx" required>
+        </div>
+
+      </div>
+      <div class="gender__details">
+        <input type="radio" name="gender" id="dot-1">
+        <input type="radio" name="gender" id="dot-2">
+        <input type="radio" name="gender" id="dot-3">
+        <span class="gender__title">Gender</span>
+        <div class="category">
+          <label for="dot-1">
+            <span class="dot one"></span>
+            <span>Male</span>
+          </label>
+          <label for="dot-2">
+            <span class="dot two"></span>
+            <span>Female</span>
+          </label>
+          <label for="dot-3">
+            <span class="dot three"></span>
+            <span>Prefer not to say</span>
+          </label><br>
+
+          <label for="Favorite color" id=""> Choose Favorite Color</label>
+          <input type="color" id="Color">
+        </div>
+      </div>
+      <div class="button">
+        <input type="submit" value="Register">
+      </div>
+    </form>
+  </div>
+  <script src="script.js"></script>
+
+  <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script>
+</body>
+
+</html>
